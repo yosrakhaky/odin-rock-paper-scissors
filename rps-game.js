@@ -10,3 +10,11 @@ function computerPlay () {
 
     return computerSelection
 }
+
+playerSelection = prompt("rock, paper, or scissors?")
+
+function playRound(playerSelection, computerSelection) {
+    if (playerSelection.toLowerCase() == computerSelection) {
+        alert("Draw, play again!");
+    }
+}
