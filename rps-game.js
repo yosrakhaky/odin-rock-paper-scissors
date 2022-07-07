@@ -19,22 +19,22 @@ function playRound(playerSelection, computerSelection) {
         alert("Draw, play again!");
     } else if (playerSelection.toLowerCase() == "rock" && computerSelection == "paper") {
         computerScore = computerScore + 1
-        alert("You Lose! Paper beats Rock");
+        alert("You Lose! Paper beats Rock!");
     } else if (playerSelection.toLowerCase() == "rock" && computerSelection == "scissors") {
         playerScore = playerScore + 1
-        alert("You win! Rock beats Scissors!")
+        alert("You Win! Rock beats Scissors!")
     } else if (playerSelection.toLowerCase() == "paper" && computerSelection == "rock") {
         playerScore = playerScore + 1
-        alert("You won! Paper beats Rock!")
+        alert("You Win! Paper beats Rock!")
     } else if (playerSelection.toLowerCase() == "paper" && computerSelection == "scissors") {
         computerScore = computerScore + 1
-        alert("You Lose! Scissors beat Paper")
+        alert("You Lose! Scissors beat Paper!")
     } else if (playerSelection.toLowerCase() == "scissors" && computerSelection == "rock") {
         computerScore = computerScore + 1
-        alert("You Lose! Rock beats Scissors")
+        alert("You Lose! Rock beats Scissors!")
     } else if (playerSelection.toLowerCase() == "scissors" && computerSelection == "paper") {
         playerScore = playerScore + 1
-        alert("You Win! Scissors beat Paper")
+        alert("You Win! Scissors beat Paper!")
     }
 }
 
