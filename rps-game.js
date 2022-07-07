@@ -43,3 +43,8 @@ function game() {
     playerSelection = prompt("rock, paper, or scissors?")
     playRound(playerSelection, computerSelection);
 }
+
+for (let i=0; i < 5; i++) {
+    game();
+    console.log("Your score is " + playerScore + " and the computer's score is " + computerScore)
+}
